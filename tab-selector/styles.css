@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 50%;
+  width: 90%;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+  background: #f1f1f1;
+  display: flex;
+}
+
+.tab {
+  height: 100%;
+  padding: 10px;
+}
+
+.tab:hover {
+  background: darkgray;
+  cursor: pointer;
+}
+
+.active-tab {
+  background: darkgray;
+}
+
+.content-body {
+  display: none;
+}
+
+.active {
+  display: block;
+}
