@@ -1,0 +1,22 @@
+.question-title {
+    font-size: 22px;
+}
+
+.question-content {
+    font-size: 18px
+}
+
+.answer {
+    background: #f1f1f1;
+    display: block;
+    margin: 2px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: limegreen;
+    border: none;
+    color: white;
+    margin-top: 10px
+}
