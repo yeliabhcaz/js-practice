@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Signika;
+    color: #1DB954;
+    text-align: center;
+}
+
+body {
+    background: black;
+    padding: 50px;
+}
+
+#welcome-statement {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#listen-time {
+    font-size: 24px;
+}
+
+#top-10s-ctr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.top-10 {
+    width: 27%;
+    height: 700px;
+    border: 1px solid #1DB954;
+    padding: 20px;
+    overflow: auto;
+}
+
+.top-10-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
